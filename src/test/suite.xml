@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="Google Test" parallel="methods" verbose="10" thread-count="3">
+<suite name="Google Test" parallel="tests" thread-count="2">
     <test name="Firefox Test">
         <parameter name="browser" value="Firefox"/>
         <classes>

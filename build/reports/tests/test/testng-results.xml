@@ -2,35 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Google Test" duration-ms="37550" started-at="2019-07-03T09:07:53Z" finished-at="2019-07-03T09:08:31Z">
+  <suite name="Google Test" duration-ms="15047" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:26Z">
     <groups>
     </groups>
-    <test name="Firefox Test" duration-ms="19478" started-at="2019-07-03T09:07:53Z" finished-at="2019-07-03T09:08:13Z">
+    <test name="Chrome Test" duration-ms="6713" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:17Z">
       <class name="GoogleTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@e695832]" name="setUp" is-config="true" duration-ms="15395" started-at="2019-07-03T09:07:53Z" finished-at="2019-07-03T09:08:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@e695832]" name="verifyTitle" duration-ms="2166" started-at="2019-07-03T09:08:08Z" finished-at="2019-07-03T09:08:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@e695832]" name="tearDown" is-config="true" duration-ms="1882" started-at="2019-07-03T09:08:11Z" finished-at="2019-07-03T09:08:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- GoogleTest -->
-    </test> <!-- Firefox Test -->
-    <test name="Chrome Test" duration-ms="13045" started-at="2019-07-03T09:08:18Z" finished-at="2019-07-03T09:08:31Z">
-      <class name="GoogleTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@5e4880a3]" name="setUp" is-config="true" duration-ms="10087" started-at="2019-07-03T09:08:18Z" finished-at="2019-07-03T09:08:28Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@411af35d]" name="setUp" is-config="true" duration-ms="3769" started-at="2019-07-03T18:41:11Z" finished-at="2019-07-03T18:41:14Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@5e4880a3]" name="verifyTitle" duration-ms="2875" started-at="2019-07-03T09:08:28Z" finished-at="2019-07-03T09:08:31Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@411af35d]" name="verifyTitle" duration-ms="2721" started-at="2019-07-03T18:41:14Z" finished-at="2019-07-03T18:41:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@5e4880a3]" name="tearDown" is-config="true" duration-ms="75" started-at="2019-07-03T09:08:31Z" finished-at="2019-07-03T09:08:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@411af35d]" name="tearDown" is-config="true" duration-ms="158" started-at="2019-07-03T18:41:17Z" finished-at="2019-07-03T18:41:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GoogleTest -->
     </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="15047" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:26Z">
+      <class name="GoogleTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@15bf7be4]" name="setUp" is-config="true" duration-ms="7458" started-at="2019-07-03T18:41:11Z" finished-at="2019-07-03T18:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@15bf7be4]" name="verifyTitle" duration-ms="6904" started-at="2019-07-03T18:41:18Z" finished-at="2019-07-03T18:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@15bf7be4]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-07-03T18:41:25Z" finished-at="2019-07-03T18:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GoogleTest -->
+    </test> <!-- Firefox Test -->
   </suite> <!-- Google Test -->
 </testng-results>
