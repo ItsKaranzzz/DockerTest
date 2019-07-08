@@ -26,3 +26,8 @@ test { // we define a task with name ‘smokeTests’
         suites 'src/test/suite.xml'
     }
 }
+jar {
+    manifest {
+        attributes 'Main-Class': 'src/test/suite.xml'
+    }
+}

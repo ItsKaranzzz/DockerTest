@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Google Test" duration-ms="15047" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:26Z">
+  <suite name="Google Test" duration-ms="17751" started-at="2019-07-08T16:59:59Z" finished-at="2019-07-08T17:00:17Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="6713" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:17Z">
+    <test name="Chrome Test" duration-ms="11770" started-at="2019-07-08T16:59:59Z" finished-at="2019-07-08T17:00:11Z">
       <class name="GoogleTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@411af35d]" name="setUp" is-config="true" duration-ms="3769" started-at="2019-07-03T18:41:11Z" finished-at="2019-07-03T18:41:14Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@6534d45b]" name="setUp" is-config="true" duration-ms="7676" started-at="2019-07-08T16:59:59Z" finished-at="2019-07-08T17:00:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@411af35d]" name="verifyTitle" duration-ms="2721" started-at="2019-07-03T18:41:14Z" finished-at="2019-07-03T18:41:17Z">
+        <test-method status="PASS" signature="verifySearchedLanguageOptions()[pri:0, instance:GoogleTest@6534d45b]" name="verifySearchedLanguageOptions" duration-ms="3028" started-at="2019-07-08T17:00:07Z" finished-at="2019-07-08T17:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedLanguageOptions -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@6534d45b]" name="verifyTitle" duration-ms="888" started-at="2019-07-08T17:00:10Z" finished-at="2019-07-08T17:00:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@411af35d]" name="tearDown" is-config="true" duration-ms="158" started-at="2019-07-03T18:41:17Z" finished-at="2019-07-03T18:41:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@6534d45b]" name="tearDown" is-config="true" duration-ms="159" started-at="2019-07-08T17:00:11Z" finished-at="2019-07-08T17:00:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GoogleTest -->
     </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="15047" started-at="2019-07-03T18:41:10Z" finished-at="2019-07-03T18:41:26Z">
+    <test name="Firefox Test" duration-ms="17751" started-at="2019-07-08T16:59:59Z" finished-at="2019-07-08T17:00:17Z">
       <class name="GoogleTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@15bf7be4]" name="setUp" is-config="true" duration-ms="7458" started-at="2019-07-03T18:41:11Z" finished-at="2019-07-03T18:41:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GoogleTest@392c71ec]" name="setUp" is-config="true" duration-ms="14958" started-at="2019-07-08T16:59:59Z" finished-at="2019-07-08T17:00:14Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@15bf7be4]" name="verifyTitle" duration-ms="6904" started-at="2019-07-03T18:41:18Z" finished-at="2019-07-03T18:41:25Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTest@392c71ec]" name="verifyTitle" duration-ms="1855" started-at="2019-07-08T17:00:14Z" finished-at="2019-07-08T17:00:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@15bf7be4]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-07-03T18:41:25Z" finished-at="2019-07-03T18:41:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest@392c71ec]" name="tearDown" is-config="true" duration-ms="937" started-at="2019-07-08T17:00:16Z" finished-at="2019-07-08T17:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
