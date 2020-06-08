@@ -19,11 +19,18 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.3.0'
+    apply plugin: 'java'
+    compileJava {options.encoding = "UTF-8"}
+    compileTestJava {options.encoding = "UTF-8"}
 }
 test { // we define a task with name ‘smokeTests’
     useTestNG() {
         useDefaultListeners = true
         suites 'src/test/suite.xml'
+    }
+    //we want display the following test events
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
     }
 }
 jar {

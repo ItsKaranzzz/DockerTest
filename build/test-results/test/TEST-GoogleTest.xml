@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-08T17:00:07" hostname="Karans-MacBook-Pro.local" time="9.123">
+<testsuite name="GoogleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-08T09:21:24" hostname="Karans-MacBook-Pro.local" time="9.097">
   <properties/>
-  <testcase name="verifySearchedLanguageOptions" classname="GoogleTest" time="3.028"/>
-  <testcase name="verifyTitle" classname="GoogleTest" time="0.888"/>
-  <testcase name="verifyTitle" classname="GoogleTest" time="1.855"/>
+  <testcase name="verifySearchedLanguageOptions" classname="GoogleTest" time="2.112"/>
+  <testcase name="verifyTitle" classname="GoogleTest" time="1.881"/>
+  <testcase name="verifyTitle" classname="GoogleTest" time="2.305"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
