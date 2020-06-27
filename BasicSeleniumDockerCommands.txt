@@ -1,0 +1,36 @@
+Pull required Images:
+
+docker pull selenium/hub
+docker pull selenium/node-chrome
+docker pull selenium/node-firefox
+docker pull selenium/node-firefox-debug
+docker pull selenium/node-chrome-debug
+
+Running Containers from the images:
+
+docker run -d -p 4444:4444 -–name selenium-hub selenium/hub
+
+For actual Browser nodes:
+
+docker run –d --link selenium-hub:hub selenium/node-chrome
+docker run –d --link selenium-hub:hub selenium/node-firefox
+
+For Viewing/debugging nodes:
+
+docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug
+docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug
+
+To view Containers
+
+docker ps –a
+
+Download VNC viewer from their official site: Download VNC
+
+2) Run it
+
+3) Type the hub URL and the port number of each debug mode as shown below and click on the connect button
+
+HUB URL: PORT NUMBER
+Example: hub host:slave port
+Chrome: 192.168.99.100:32771
+Firefox: 192.168.99.100:32772

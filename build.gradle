@@ -19,9 +19,11 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.3.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium.grid/selenium-grid-hub
+    compile group: 'org.seleniumhq.selenium.grid', name: 'selenium-grid-hub', version: '1.0.5'
     apply plugin: 'java'
-    compileJava {options.encoding = "UTF-8"}
-    compileTestJava {options.encoding = "UTF-8"}
+    compileJava { options.encoding = "UTF-8" }
+    compileTestJava { options.encoding = "UTF-8" }
 }
 test { // we define a task with name ‘smokeTests’
     useTestNG() {

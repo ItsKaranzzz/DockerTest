@@ -1,25 +1,18 @@
 FROM ubuntu
 MAINTAINER Karan Chaudhary
 
-# Update aptitude with new repo
-RUN apt-get update
-# Install git
-RUN apt-get install -y git
-# make new directory
-RUN mkdir /home/DockerTest
-# navigate to new directory
-RUN cd /home/DockerTest
-# clone the git repo to the created directory
-RUN git clone https://github.com/ItsKaranzzz/DockerTest.git
-#Set working directory
-WORKDIR /home/DockerTest
+#Install git
+RUN apt-get update \
+apt-get install -y git
+RUN mkdir /testFolder
+
+ADD . /testFolder
+
+RUN useradd -ms /bin/bash admin
+RUN chown -R admin:admin /testFolder/DockerTest/
 
 FROM openjdk:8-jre-slim
-
 EXPOSE 8080
 
-RUN mkdir /app
 
-COPY /build/libs/*.jar /app/google_test.jar
-
-ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom","-jar","/app/google_test.jar"]
+ENTRYPOINT java -cp "/opt/testng-6.8.jar:bin" org.testng.TestNG /testFolder/DockerTest/src/test/suite.xml
