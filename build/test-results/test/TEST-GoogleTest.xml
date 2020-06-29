@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-27T08:51:19" hostname="Karans-MacBook-Pro.local" time="17.173">
-  <properties/>
-  <testcase name="verifyTitle" classname="GoogleTest" time="1.918"/>
-  <testcase name="verifyTitle" classname="GoogleTest" time="2.55"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

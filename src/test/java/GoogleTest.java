@@ -20,7 +20,7 @@ public class GoogleTest {
     String REMOTE_URL=Utils.getConfigs().getProperty("remote_url");
 
     @Parameters({"browser"})
-    @BeforeMethod
+    @BeforeClass
     public void setUp(String browser) throws MalformedURLException {
         if (browser.equalsIgnoreCase("chrome")) {
             cap = new DesiredCapabilities();
@@ -39,7 +39,7 @@ public class GoogleTest {
 
     }
 
-    @Test(threadPoolSize = 2)
+    @Test
     public void verifyTitle() {
         driver.get(URL);
         String actualTitle = driver.getTitle();

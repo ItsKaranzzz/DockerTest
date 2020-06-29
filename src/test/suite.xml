@@ -4,10 +4,6 @@
         <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="GoogleTest">
-                <methods>
-                    <include name="verifyTitle"/>
-                    <include name="verifySearchButton"/>
-                </methods>
             </class>
         </classes>
     </test>
