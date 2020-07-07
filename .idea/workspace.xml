@@ -20,68 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfc564a-7cdd-42db-9066-8bccc1ef9cfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleThemeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/GoogleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/GoogleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/google_test-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Chrome Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Chrome Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Firefox Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Firefox Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Firefox Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/Google Test/Firefox Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/GoogleTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/junitreports/TEST-GoogleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/Chrome Test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/Firefox Test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/Google Test/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-GoogleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/GoogleThemeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,32 +233,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593411112295">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1593411112295" />
     <state x="466" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592381981983">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="466" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.797@0.23.1440.797" timestamp="1592381981983" />
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1593410934069">
+    <state width="1358" height="127" key="GridCell.Tab.0.bottom" timestamp="1593425827066">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1593410934069" />
+    <state width="1358" height="127" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1593425827066" />
     <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1593247023308" />
     <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1593248429565" />
-    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1593410934069">
+    <state width="1358" height="127" key="GridCell.Tab.0.center" timestamp="1593425827066">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1593410934069" />
+    <state width="1358" height="127" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1593425827066" />
     <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1593247023307" />
     <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1593248429564" />
-    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1593410934068">
+    <state width="1358" height="127" key="GridCell.Tab.0.left" timestamp="1593425827065">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1593410934068" />
+    <state width="1358" height="127" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1593425827065" />
     <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1593247023306" />
     <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1593248429563" />
-    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1593410934069">
+    <state width="1358" height="127" key="GridCell.Tab.0.right" timestamp="1593425827066">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1593410934069" />
+    <state width="1358" height="127" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1593425827066" />
     <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1593247023307" />
     <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1593248429564" />
     <state x="454" y="131" key="RollbackChangesDialog" timestamp="1593408718332">

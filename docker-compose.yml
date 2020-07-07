@@ -23,3 +23,25 @@ services:
     environment:
       - HUB_HOST=selenium-hub
       - HUB_PORT=4444
+  chrome-debug:
+    image: selenium/node-chrome-debug
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "9001:5900"
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+  firefox-debug:
+    image: selenium/node-firefox-debug
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "9002:5900"
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
